@@ -20,6 +20,12 @@
             "language": "islash",
             "scopeName": "text.islash",
             "path": "./syntaxes/islash.tmLanguage.json"
-        }]
+        }],
+        "snippets": [
+            {
+              "language": "islash",
+              "path": "./snippets/islash.code-snippets"
+            }
+        ]
     }
 }

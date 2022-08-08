@@ -1,0 +1,219 @@
+{
+	"declare": {
+		"scope": "islash",
+		"prefix": "declare",
+		"body": [
+			"declare"
+		],
+		"description": "Declares a variable"
+	},
+	"add": {
+		"scope": "islash",
+		"prefix": "add",
+		"body": [
+			"add"
+		],
+		"description": "Add numbers."
+	},
+	"sub": {
+		"scope": "islash",
+		"prefix": "sub",
+		"body": [
+			"sub"
+		],
+		"description": "Subtract numbers."
+	},
+	"mult": {
+		"scope": "islash",
+		"prefix": "mult",
+		"body": [
+			"sub"
+		],
+		"description": "Multiply numbers."
+	},
+	"div": {
+		"scope": "islash",
+		"prefix": "div",
+		"body": [
+			"div"
+		],
+		"description": "Divides numbers."
+	},
+	"mod": {
+		"scope": "islash",
+		"prefix": "mod",
+		"body": [
+			"mod"
+		],
+		"description": "The remainder of division."
+	},
+	"increment": {
+		"scope": "islash",
+		"prefix": "increment",
+		"body": [
+			"increment"
+		],
+		"description": "Adds 1 to the number."
+	},
+	"decrement": {
+		"scope": "islash",
+		"prefix": "decrement",
+		"body": [
+			"decrement"
+		],
+		"description": "Subtracts 1 from the number."
+	},
+	"greaterthan": {
+		"scope": "islash",
+		"prefix": "greaterthan",
+		"body": [
+			"greaterthan"
+		],
+		"description": "> Operator."
+	},
+	"greaterthanequal": {
+		"scope": "islash",
+		"prefix": "greaterthanequal",
+		"body": [
+			"greaterthanequal"
+		],
+		"description": ">= Operator."
+	},
+	"lessthan": {
+		"scope": "islash",
+		"prefix": "lessthan",
+		"body": [
+			"lessthan"
+		],
+		"description": "< Operator."
+	},
+	"lessthanequal": {
+		"scope": "islash",
+		"prefix": "lessthanequal",
+		"body": [
+			"lessthanequal"
+		],
+		"description": "<= Operator."
+	},
+	"not": {
+		"scope": "islash",
+		"prefix": "not",
+		"body": [
+			"not"
+		],
+		"description": "! Operator."
+	},
+	"and": {
+		"scope": "islash",
+		"prefix": "and",
+		"body": [
+			"and"
+		],
+		"description": "&& Operator."
+	},
+	"or": {
+		"scope": "islash",
+		"prefix": "or",
+		"body": [
+			"or"
+		],
+		"description": "|| Operator."
+	},
+	"if": {
+		"scope": "islash",
+		"prefix": "if",
+		"body": [
+			"if\nendif"
+		],
+		"description": "If statement."
+	},
+	"else": {
+		"scope": "islash",
+		"prefix": "else",
+		"body": [
+			"else"
+		],
+		"description": "Else statement."
+	},
+	"endif": {
+		"scope": "islash",
+		"prefix": "endif",
+		"body": [
+			"endif"
+		],
+		"description": "Closes if blocks."
+	},
+	"equal": {
+		"scope": "islash",
+		"prefix": "equal",
+		"body": [
+			"equal"
+		],
+		"description": "== Operator."
+	},
+	"notequal": {
+		"scope": "islash",
+		"prefix": "notequal",
+		"body": [
+			"notequal"
+		],
+		"description": "!= Operator."
+	},
+	"length": {
+		"scope": "islash",
+		"prefix": "length",
+		"body": [
+			"length"
+		],
+		"description": "Gets the length of a string."
+	},
+	"getchar": {
+		"scope": "islash",
+		"prefix": "getchar",
+		"body": [
+			"getchar"
+		],
+		"description": "Gets the nth char of a string."
+	},
+	"concat": {
+		"scope": "islash",
+		"prefix": "concat",
+		"body": [
+			"concat"
+		],
+		"description": "Concatenates strings."
+	},
+	"say": {
+		"scope": "islash",
+		"prefix": "say",
+		"body": [
+			"say"
+		],
+		"description": "Prints to screen."
+	},
+	"input": {
+		"scope": "islash",
+		"prefix": "input",
+		"body": [
+			"input"
+		],
+		"description": "Gets user input."
+	},
+	"while": {
+		"scope": "islash",
+		"prefix": "while",
+		"body": [
+			"while\nendwhile"
+		],
+		"description": "While statements."
+	},
+	"endwhile": {
+		"scope": "islash",
+		"prefix": "endwhile",
+		"body": [
+			"endwhile"
+		],
+		"description": "Closes while statements."
+	}
+	
+}
