@@ -32,7 +32,7 @@
 					"match": "\\\\."
 				},
 				{
-					"name": "constant.numeric.islash",
+					"name": "constant.character.escape.islash",
 					"match": "\\$\\(.*\\)"
 				}
 			]
