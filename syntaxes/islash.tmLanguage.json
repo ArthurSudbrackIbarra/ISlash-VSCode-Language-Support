@@ -9,9 +9,6 @@
 			"include": "#strings"
 		},
 		{
-			"include": "#string-interpolation"
-		},
-		{
 			"include": "#numbers"
 		},
 		{
@@ -33,13 +30,12 @@
 				{
 					"name": "constant.character.escape.islash",
 					"match": "\\\\."
+				},
+				{
+					"name": "constant.numeric.islash",
+					"match": "\\$\\(.*\\)"
 				}
 			]
-		},
-		"string-interpolation": {
-			"name": "string.interpolated.islash",
-			"begin": "\\$\\(",
-			"end": "\\)"
 		},
 		"numbers": {
 			"name": "constant.numeric.islash",
