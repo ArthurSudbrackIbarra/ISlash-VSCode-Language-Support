@@ -222,5 +222,37 @@
 			"break"
 		],
 		"description": "Breaks while statements."
+	},
+	"get": {
+		"scope": "islash",
+		"prefix": "get",
+		"body": [
+			"get array index varToStore"
+		],
+		"description": "Access array indexes."
+	},
+	"append": {
+		"scope": "islash",
+		"prefix": "append",
+		"body": [
+			"append array element"
+		],
+		"description": "Append an element to an array."
+	},
+	"foreach": {
+		"scope": "islash",
+		"prefix": "foreach",
+		"body": [
+			"foreach element array\n\t\nendforeach"
+		],
+		"description": "Foreach statements."
+	},
+	"endforeach": {
+		"scope": "islash",
+		"prefix": "endforeach",
+		"body": [
+			"endforeach"
+		],
+		"description": "Closes foreach statements."
 	}
 }

@@ -22,7 +22,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.islash",
-				"match": "\\b(declare|add|sub|mult|div|mod|increment|decrement|greaterthan|greaterthanequal|lessthan|lessthanequal|not|and|or|if|else|endif|equal|notequal|concat|length|getchar|say|input|while|endwhile|break)\\b"
+				"match": "\\b(declare|add|sub|mult|div|mod|increment|decrement|greaterthan|greaterthanequal|lessthan|lessthanequal|not|and|or|if|else|endif|equal|notequal|concat|length|getchar|say|input|while|endwhile|break|get|append|foreach|endforeach)\\b"
 			}]
 		},
 		"strings": {
