@@ -32,8 +32,8 @@
 					"match": "\\\\."
 				},
 				{
-					"name": "constant.character.escape.islash",
-					"match": "\\$\\(.*\\)"
+					"name": "constant.character.escape.interpolation.islash",
+					"match": "\\$\\([^\\)]*\\)"
 				}
 			]
 		},
