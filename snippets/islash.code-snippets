@@ -3,7 +3,7 @@
 		"scope": "islash",
 		"prefix": "declare",
 		"body": [
-			"declare"
+			"declare x 0"
 		],
 		"description": "Declares a variable"
 	},
@@ -11,7 +11,7 @@
 		"scope": "islash",
 		"prefix": "add",
 		"body": [
-			"add"
+			"add num1 num2 varToStore"
 		],
 		"description": "Add numbers."
 	},
@@ -19,7 +19,7 @@
 		"scope": "islash",
 		"prefix": "sub",
 		"body": [
-			"sub"
+			"sub num1 num2 varToStore"
 		],
 		"description": "Subtract numbers."
 	},
@@ -27,7 +27,7 @@
 		"scope": "islash",
 		"prefix": "mult",
 		"body": [
-			"sub"
+			"mult num1 num2 varToStore"
 		],
 		"description": "Multiply numbers."
 	},
@@ -35,7 +35,7 @@
 		"scope": "islash",
 		"prefix": "div",
 		"body": [
-			"div"
+			"div num1 num2 varToStore"
 		],
 		"description": "Divides numbers."
 	},
@@ -43,7 +43,7 @@
 		"scope": "islash",
 		"prefix": "mod",
 		"body": [
-			"mod"
+			"mod num1 num2 varToStore"
 		],
 		"description": "The remainder of division."
 	},
@@ -51,7 +51,7 @@
 		"scope": "islash",
 		"prefix": "increment",
 		"body": [
-			"increment"
+			"increment myVar"
 		],
 		"description": "Adds 1 to the number."
 	},
@@ -59,7 +59,7 @@
 		"scope": "islash",
 		"prefix": "decrement",
 		"body": [
-			"decrement"
+			"decrement myVar"
 		],
 		"description": "Subtracts 1 from the number."
 	},
@@ -67,7 +67,7 @@
 		"scope": "islash",
 		"prefix": "greaterthan",
 		"body": [
-			"greaterthan"
+			"greaterthan x y varToStore"
 		],
 		"description": "> Operator."
 	},
@@ -75,7 +75,7 @@
 		"scope": "islash",
 		"prefix": "greaterthanequal",
 		"body": [
-			"greaterthanequal"
+			"greaterthanequal x y varToStore"
 		],
 		"description": ">= Operator."
 	},
@@ -83,7 +83,7 @@
 		"scope": "islash",
 		"prefix": "lessthan",
 		"body": [
-			"lessthan"
+			"lessthan x y varToStore"
 		],
 		"description": "< Operator."
 	},
@@ -91,7 +91,7 @@
 		"scope": "islash",
 		"prefix": "lessthanequal",
 		"body": [
-			"lessthanequal"
+			"lessthanequal x y varToStore"
 		],
 		"description": "<= Operator."
 	},
@@ -99,7 +99,7 @@
 		"scope": "islash",
 		"prefix": "not",
 		"body": [
-			"not"
+			"not x varToStore"
 		],
 		"description": "! Operator."
 	},
@@ -107,7 +107,7 @@
 		"scope": "islash",
 		"prefix": "and",
 		"body": [
-			"and"
+			"and x y varToStore"
 		],
 		"description": "&& Operator."
 	},
@@ -115,7 +115,7 @@
 		"scope": "islash",
 		"prefix": "or",
 		"body": [
-			"or"
+			"or x y varToStore"
 		],
 		"description": "|| Operator."
 	},
@@ -123,7 +123,7 @@
 		"scope": "islash",
 		"prefix": "if",
 		"body": [
-			"if\nendif"
+			"if x\n\t\nendif"
 		],
 		"description": "If statement."
 	},
@@ -147,7 +147,7 @@
 		"scope": "islash",
 		"prefix": "equal",
 		"body": [
-			"equal"
+			"equal x y varToStore"
 		],
 		"description": "== Operator."
 	},
@@ -155,7 +155,7 @@
 		"scope": "islash",
 		"prefix": "notequal",
 		"body": [
-			"notequal"
+			"notequal x y varToStore"
 		],
 		"description": "!= Operator."
 	},
@@ -163,7 +163,7 @@
 		"scope": "islash",
 		"prefix": "length",
 		"body": [
-			"length"
+			"length str varToStore"
 		],
 		"description": "Gets the length of a string."
 	},
@@ -171,7 +171,7 @@
 		"scope": "islash",
 		"prefix": "getchar",
 		"body": [
-			"getchar"
+			"getchar str index varToStore"
 		],
 		"description": "Gets the nth char of a string."
 	},
@@ -179,7 +179,7 @@
 		"scope": "islash",
 		"prefix": "concat",
 		"body": [
-			"concat"
+			"concat str1 str2"
 		],
 		"description": "Concatenates strings."
 	},
@@ -187,7 +187,7 @@
 		"scope": "islash",
 		"prefix": "say",
 		"body": [
-			"say"
+			"say "
 		],
 		"description": "Prints to screen."
 	},
@@ -195,7 +195,7 @@
 		"scope": "islash",
 		"prefix": "input",
 		"body": [
-			"input"
+			"input x \"\""
 		],
 		"description": "Gets user input."
 	},
@@ -203,7 +203,7 @@
 		"scope": "islash",
 		"prefix": "while",
 		"body": [
-			"while\nendwhile"
+			"while x\n\t\nendwhile"
 		],
 		"description": "While statements."
 	},
@@ -214,6 +214,13 @@
 			"endwhile"
 		],
 		"description": "Closes while statements."
+	},
+	"break": {
+		"scope": "islash",
+		"prefix": "break",
+		"body": [
+			"break"
+		],
+		"description": "Breaks while statements."
 	}
-	
 }

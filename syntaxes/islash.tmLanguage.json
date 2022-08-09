@@ -12,6 +12,9 @@
 			"include": "#numbers"
 		},
 		{
+			"include": "#arrays"
+		},
+		{
 			"include": "#comments"
 		}
 	],
@@ -19,7 +22,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.islash",
-				"match": "\\b(declare|add|sub|mult|div|mod|increment|decrement|greaterthan|greaterthanequal|lessthan|lessthanequal|not|and|or|if|else|endif|equal|notequal|concat|length|getchar|say|input|while|endwhile)\\b"
+				"match": "\\b(declare|add|sub|mult|div|mod|increment|decrement|greaterthan|greaterthanequal|lessthan|lessthanequal|not|and|or|if|else|endif|equal|notequal|concat|length|getchar|say|input|while|endwhile|break)\\b"
 			}]
 		},
 		"strings": {
@@ -40,6 +43,22 @@
 		"numbers": {
 			"name": "constant.numeric.islash",
 			"match": "(?x)\n(?<!\\$)\n(\n  \\b[0-9]([0-9_]*[0-9])?\\.\\B(?!\\.)\n  |\n  \\b[0-9]([0-9_]*[0-9])?\\.([Ee][+-]?[0-9]([0-9_]*[0-9])?)[FfDd]?\\b\n  |\n  \\b[0-9]([0-9_]*[0-9])?\\.([Ee][+-]?[0-9]([0-9_]*[0-9])?)?[FfDd]\\b\n  |\n  \\b[0-9]([0-9_]*[0-9])?\\.([0-9]([0-9_]*[0-9])?)([Ee][+-]?[0-9]([0-9_]*[0-9])?)?[FfDd]?\\b\n  |\n  (?<!\\.)\\B\\.[0-9]([0-9_]*[0-9])?([Ee][+-]?[0-9]([0-9_]*[0-9])?)?[FfDd]?\\b\n  |\n  \\b[0-9]([0-9_]*[0-9])?([Ee][+-]?[0-9]([0-9_]*[0-9])?)[FfDd]?\\b\n  |\n  \\b[0-9]([0-9_]*[0-9])?([Ee][+-]?[0-9]([0-9_]*[0-9])?)?[FfDd]\\b\n  |\n  \\b(0|[1-9]([0-9_]*[0-9])?)(?!\\.)[Ll]?\\b\n)\n(?!\\$)"
+		},
+		"arrays": {
+			"begin": "\\[",
+			"end": "\\]",
+			"patterns": [
+				{
+					"include": "#strings"
+				},
+				{
+					"include": "#numbers"
+				},
+				{
+					"match": ",",
+					"name": "entity.name.type.comma.islash"
+				}
+			]
 		},
 		"comments": {
 			"name": "comment.line.number-sign.islash",
