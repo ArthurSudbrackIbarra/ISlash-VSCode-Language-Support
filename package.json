@@ -14,7 +14,11 @@
             "id": "islash",
             "aliases": ["ISlash", "islash"],
             "extensions": [".islash"],
-            "configuration": "./language-configuration.json"
+            "configuration": "./language-configuration.json",
+            "icon": {
+                "light": "./icons/islash.svg",
+                "dark": "./icons/islash.svg"
+            }
         }],
         "grammars": [{
             "language": "islash",
