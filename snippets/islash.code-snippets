@@ -1,11 +1,11 @@
 {
 	"declare": {
 		"scope": "islash",
-		"prefix": "declare",
+		"prefix": "set",
 		"body": [
-			"declare x 0"
+			"set x 0"
 		],
-		"description": "Declares a variable"
+		"description": "Sets/declares variables."
 	},
 	"add": {
 		"scope": "islash",
@@ -63,35 +63,35 @@
 		],
 		"description": "Subtracts 1 from the number."
 	},
-	"greaterthan": {
+	"greater": {
 		"scope": "islash",
-		"prefix": "greaterthan",
+		"prefix": "greater",
 		"body": [
-			"greaterthan x y varToStore"
+			"greater x y varToStore"
 		],
 		"description": "> Operator."
 	},
-	"greaterthanequal": {
+	"greaterequal": {
 		"scope": "islash",
-		"prefix": "greaterthanequal",
+		"prefix": "greaterequal",
 		"body": [
-			"greaterthanequal x y varToStore"
+			"greaterequal x y varToStore"
 		],
 		"description": ">= Operator."
 	},
-	"lessthan": {
+	"less": {
 		"scope": "islash",
-		"prefix": "lessthan",
+		"prefix": "less",
 		"body": [
-			"lessthan x y varToStore"
+			"less x y varToStore"
 		],
 		"description": "< Operator."
 	},
-	"lessthanequal": {
+	"lessequal": {
 		"scope": "islash",
-		"prefix": "lessthanequal",
+		"prefix": "lessequal",
 		"body": [
-			"lessthanequal x y varToStore"
+			"lessequal x y varToStore"
 		],
 		"description": "<= Operator."
 	},
@@ -213,7 +213,7 @@
 		"body": [
 			"endwhile"
 		],
-		"description": "Closes while statements."
+		"description": "Closes while blocks."
 	},
 	"break": {
 		"scope": "islash",
@@ -221,13 +221,13 @@
 		"body": [
 			"break"
 		],
-		"description": "Breaks while statements."
+		"description": "(Not Implemented Yet) Breaks while statements."
 	},
-	"get": {
+	"accessindex": {
 		"scope": "islash",
-		"prefix": "get",
+		"prefix": "accessindex",
 		"body": [
-			"get array index varToStore"
+			"accessindex array index varToStore"
 		],
 		"description": "Access array indexes."
 	},
@@ -253,6 +253,6 @@
 		"body": [
 			"endforeach"
 		],
-		"description": "Closes foreach statements."
+		"description": "Closes foreach blocks."
 	}
 }
