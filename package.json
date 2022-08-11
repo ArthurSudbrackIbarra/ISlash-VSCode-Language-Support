@@ -1,7 +1,7 @@
 {
     "name": "islash-language-support",
     "displayName": "ISlash Language Support",
-    "description": "Syntax Highligh for the ISlash language.",
+    "description": "Language Support for the ISlash language.",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.70.0"

@@ -6,6 +6,9 @@
 			"include": "#keywords"
 		},
 		{
+			"include": "#variables"
+		},
+		{
 			"include": "#strings"
 		},
 		{
@@ -20,10 +23,16 @@
 	],
 	"repository": {
 		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.islash",
-				"match": "\\b(set|add|sub|mult|div|mod|increment|decrement|greater|greaterequal|less|lessequal|not|and|or|if|else|endif|equal|notequal|concat|length|getchar|say|input|while|endwhile|break|accessindex|append|foreach|endforeach)\\b"
-			}]
+			"patterns": [
+				{
+					"name": "keyword.control.islash",
+					"match": "\\b(set|add|sub|mult|div|mod|increment|decrement|greater|greaterequal|less|lessequal|not|and|or|if|else|endif|equal|notequal|concat|length|getchar|say|input|while|endwhile|break|accessindex|append|foreach|endforeach)\\b"
+				}
+			]
+		},
+		"variables": {
+			"name": "variable.name.islash",
+			"match": "\\b([a-zA-Z_$][a-zA-Z_$0-9]*)\\b"
 		},
 		"strings": {
 			"name": "string.quoted.double.islash",
@@ -35,7 +44,7 @@
 					"match": "\\\\."
 				},
 				{
-					"name": "constant.character.escape.interpolation.islash",
+					"name": "variable.parameter.interpolated.islash",
 					"match": "\\$\\([^\\)]*\\)"
 				}
 			]
@@ -49,14 +58,17 @@
 			"end": "\\]",
 			"patterns": [
 				{
-					"include": "#strings"
+					"include": "#variables"
 				},
 				{
 					"include": "#numbers"
 				},
 				{
-					"match": ",",
-					"name": "entity.name.type.comma.islash"
+					"include": "#strings"
+				},
+				{
+					"name": "???",
+					"match": ","
 				}
 			]
 		},
