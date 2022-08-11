@@ -47,6 +47,14 @@
 		],
 		"description": "The remainder of division."
 	},
+	"root": {
+		"scope": "islash",
+		"prefix": "root",
+		"body": [
+			"root num1 num2 2 varToStore"
+		],
+		"description": "Calculates roots."
+	},
 	"increment": {
 		"scope": "islash",
 		"prefix": "increment",
@@ -237,7 +245,7 @@
 		"body": [
 			"append array element"
 		],
-		"description": "Append an element to an array."
+		"description": "Appends an element to an array."
 	},
 	"foreach": {
 		"scope": "islash",
@@ -254,5 +262,53 @@
 			"endforeach"
 		],
 		"description": "Closes foreach blocks."
+	},
+	"rangearray": {
+		"scope": "islash",
+		"prefix": "rangearray",
+		"body": [
+			"rangearray range varToStore"
+		],
+		"description": "Creates an array from 0 to (range - 1)."
+	},
+	"preppend": {
+		"scope": "islash",
+		"prefix": "preppend",
+		"body": [
+			"preppend array element"
+		],
+		"description": "Preppends an element to an array."
+	},
+	"removefirst": {
+		"scope": "islash",
+		"prefix": "removefirst",
+		"body": [
+			"removefirst array varToStore"
+		],
+		"description": "Removes the first element of an array."
+	},
+	"removelast": {
+		"scope": "islash",
+		"prefix": "removelast",
+		"body": [
+			"removelast array varToStore"
+		],
+		"description": "Removes the last element of an array."
+	},
+	"setindex": {
+		"scope": "islash",
+		"prefix": "setindex",
+		"body": [
+			"setindex array index element"
+		],
+		"description": "Changes the element at the specified array index."
+	},
+	"swap": {
+		"scope": "islash",
+		"prefix": "swap",
+		"body": [
+			"swap array index1 index2"
+		],
+		"description": "Swaps arrays positions."
 	}
 }
