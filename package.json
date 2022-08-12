@@ -3,12 +3,17 @@
     "displayName": "ISlash Language Support",
     "description": "Language Support for the ISlash language.",
     "version": "0.0.1",
+    "icon": "./icons/islash.png",
     "engines": {
         "vscode": "^1.70.0"
     },
     "categories": [
         "Programming Languages"
     ],
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/ArthurSudbrackIbarra/ISlash-VSCode-Language-Support"
+	},
     "contributes": {
         "languages": [{
             "id": "islash",
