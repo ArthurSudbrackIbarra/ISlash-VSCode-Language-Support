@@ -47,11 +47,19 @@
 		],
 		"description": "The remainder of division."
 	},
+	"power": {
+		"scope": "islash",
+		"prefix": "power",
+		"body": [
+			"power num1 2 varToStore"
+		],
+		"description": "Calculates power operations."
+	},
 	"root": {
 		"scope": "islash",
 		"prefix": "root",
 		"body": [
-			"root num1 num2 2 varToStore"
+			"root num1 2 varToStore"
 		],
 		"description": "Calculates roots."
 	},
@@ -310,5 +318,13 @@
 			"swap array index1 index2"
 		],
 		"description": "Swaps arrays positions."
+	},
+	"random": {
+		"scope": "islash",
+		"prefix": "random",
+		"body": [
+			"random 0 10 varToStore"
+		],
+		"description": "Generates a random integer value within the specified range."
 	}
 }
