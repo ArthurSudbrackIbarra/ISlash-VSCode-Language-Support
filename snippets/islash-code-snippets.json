@@ -1,5 +1,5 @@
 {
-	"declare": {
+	"set": {
 		"scope": "islash",
 		"prefix": "set",
 		"body": [
@@ -13,7 +13,7 @@
 		"body": [
 			"add num1 num2 varToStore"
 		],
-		"description": "Add numbers."
+		"description": "'+' operator."
 	},
 	"sub": {
 		"scope": "islash",
@@ -21,7 +21,7 @@
 		"body": [
 			"sub num1 num2 varToStore"
 		],
-		"description": "Subtract numbers."
+		"description": "'-' operator."
 	},
 	"mult": {
 		"scope": "islash",
@@ -29,7 +29,7 @@
 		"body": [
 			"mult num1 num2 varToStore"
 		],
-		"description": "Multiply numbers."
+		"description": "'*' operator."
 	},
 	"div": {
 		"scope": "islash",
@@ -37,7 +37,7 @@
 		"body": [
 			"div num1 num2 varToStore"
 		],
-		"description": "Divides numbers."
+		"description": "'\\' operator numbers."
 	},
 	"mod": {
 		"scope": "islash",
@@ -45,7 +45,7 @@
 		"body": [
 			"mod num1 num2 varToStore"
 		],
-		"description": "The remainder of division."
+		"description": "'%' operator."
 	},
 	"power": {
 		"scope": "islash",
@@ -53,7 +53,7 @@
 		"body": [
 			"power num1 2 varToStore"
 		],
-		"description": "Calculates power operations."
+		"description": "'^' operator."
 	},
 	"root": {
 		"scope": "islash",
@@ -61,7 +61,7 @@
 		"body": [
 			"root num1 2 varToStore"
 		],
-		"description": "Calculates roots."
+		"description": "Square roots, cubic roots...."
 	},
 	"increment": {
 		"scope": "islash",
@@ -85,7 +85,7 @@
 		"body": [
 			"greater x y varToStore"
 		],
-		"description": "> Operator."
+		"description": "'>' Operator."
 	},
 	"greaterequal": {
 		"scope": "islash",
@@ -93,7 +93,7 @@
 		"body": [
 			"greaterequal x y varToStore"
 		],
-		"description": ">= Operator."
+		"description": "'>=' Operator."
 	},
 	"less": {
 		"scope": "islash",
@@ -101,7 +101,7 @@
 		"body": [
 			"less x y varToStore"
 		],
-		"description": "< Operator."
+		"description": "'<' Operator."
 	},
 	"lessequal": {
 		"scope": "islash",
@@ -109,7 +109,7 @@
 		"body": [
 			"lessequal x y varToStore"
 		],
-		"description": "<= Operator."
+		"description": "'<=' Operator."
 	},
 	"not": {
 		"scope": "islash",
@@ -117,7 +117,7 @@
 		"body": [
 			"not x varToStore"
 		],
-		"description": "! Operator."
+		"description": "'!' Operator."
 	},
 	"and": {
 		"scope": "islash",
@@ -125,7 +125,7 @@
 		"body": [
 			"and x y varToStore"
 		],
-		"description": "&& Operator."
+		"description": "'&&' Operator."
 	},
 	"or": {
 		"scope": "islash",
@@ -133,7 +133,7 @@
 		"body": [
 			"or x y varToStore"
 		],
-		"description": "|| Operator."
+		"description": "'||' Operator."
 	},
 	"if": {
 		"scope": "islash",
@@ -165,7 +165,7 @@
 		"body": [
 			"equal x y varToStore"
 		],
-		"description": "== Operator."
+		"description": "'==' Operator."
 	},
 	"notequal": {
 		"scope": "islash",
@@ -173,7 +173,7 @@
 		"body": [
 			"notequal x y varToStore"
 		],
-		"description": "!= Operator."
+		"description": "'!=' Operator."
 	},
 	"length": {
 		"scope": "islash",
@@ -181,7 +181,7 @@
 		"body": [
 			"length str varToStore"
 		],
-		"description": "Gets the length of a string."
+		"description": "Gets the length of a string or an array."
 	},
 	"getchar": {
 		"scope": "islash",
@@ -245,7 +245,7 @@
 		"body": [
 			"accessindex array index varToStore"
 		],
-		"description": "Access array indexes."
+		"description": "Accesses array indexes."
 	},
 	"append": {
 		"scope": "islash",
