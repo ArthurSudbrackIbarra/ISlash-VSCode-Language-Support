@@ -179,7 +179,7 @@
 		"scope": "islash",
 		"prefix": "length",
 		"body": [
-			"length str varToStore"
+			"length strOrArray varToStore"
 		],
 		"description": "Gets the length of a string or an array."
 	},
@@ -203,7 +203,7 @@
 		"scope": "islash",
 		"prefix": "say",
 		"body": [
-			"say "
+			"say \"\""
 		],
 		"description": "Prints to screen."
 	},
