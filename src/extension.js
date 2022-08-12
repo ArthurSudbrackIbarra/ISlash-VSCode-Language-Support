@@ -11,7 +11,7 @@ function activate() {
             const snippet = ISLASH_SNIPPETS[word]
             if (snippet) {
                 const content = new vscode.MarkdownString(snippet.description)
-                content.appendCodeblock(snippet.body[0])
+                content.appendCodeblock(snippet.body[0], "ISlash")
                 return new vscode.Hover(content, new vscode.Range(position, position));
             }
         }
