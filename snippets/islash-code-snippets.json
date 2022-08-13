@@ -358,5 +358,29 @@
 			"split str pattern varToStore"
 		],
 		"description": "Splits a string using a pattern, produces a string[] variable."
+	},
+	"upper": {
+		"scope": "islash",
+		"prefix": "upper",
+		"body": [
+			"upper str varToStore"
+		],
+		"description": "Turn strings into uppercase."
+	},
+	"lower": {
+		"scope": "islash",
+		"prefix": "lower",
+		"body": [
+			"lower str varToStore"
+		],
+		"description": "Turn strings into lowercase."
+	},
+	"contains": {
+		"scope": "islash",
+		"prefix": "contains",
+		"body": [
+			"contains strOrArray toFind varToStore"
+		],
+		"description": "Checks if a string contains a character or if an array contains an element."
 	}
 }
