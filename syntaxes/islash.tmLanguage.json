@@ -26,7 +26,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.islash",
-					"match": "\\b(set|add|sub|mult|div|mod|root|power|increment|decrement|greater|greaterequal|less|lessequal|not|and|or|equal|notequal|concat|length|getchar|say|input|break|accessindex|append|preppend|rangearray|removefirst|removelast|swap|setindex|random)\\b"
+					"match": "\\b(set|add|sub|mult|div|mod|root|power|increment|decrement|greater|greaterequal|less|lessequal|not|and|or|equal|notequal|concat|length|getchar|say|input|break|accessindex|append|preppend|rangearray|removefirst|removelast|swap|setindex|random|readfile|readfilelines|writefile|split)\\b"
 				},
 				{
 					"name": "entity.name.function.islash",

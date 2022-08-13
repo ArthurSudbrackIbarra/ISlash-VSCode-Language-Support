@@ -326,5 +326,37 @@
 			"random 0 10 varToStore"
 		],
 		"description": "Generates a random integer value within the specified range."
+	},
+	"readfile": {
+		"scope": "islash",
+		"prefix": "readfile",
+		"body": [
+			"readfile \"filePath\" varToStore"
+		],
+		"description": "Reads a file, produces a string variable."
+	},
+	"readfilelines": {
+		"scope": "islash",
+		"prefix": "readfilelines",
+		"body": [
+			"readfilelines \"filePath\" varToStore"
+		],
+		"description": "Reads a file line by line, produces a string[] variable."
+	},
+	"writefile": {
+		"scope": "islash",
+		"prefix": "writefile",
+		"body": [
+			"writefile \"filePath\" content"
+		],
+		"description": "Writes to a file, overrides previous content."
+	},
+	"split": {
+		"scope": "islash",
+		"prefix": "split",
+		"body": [
+			"split str pattern varToStore"
+		],
+		"description": "Splits a string using a pattern, produces a string[] variable."
 	}
 }
