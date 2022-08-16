@@ -143,6 +143,14 @@
 		],
 		"description": "If statement."
 	},
+	"elseif": {
+		"scope": "islash",
+		"prefix": "elseif",
+		"body": [
+			"elseif x\n\t"
+		],
+		"description": "Else if statement."
+	},
 	"else": {
 		"scope": "islash",
 		"prefix": "else",
@@ -237,7 +245,7 @@
 		"body": [
 			"break"
 		],
-		"description": "(Not Implemented Yet) Breaks while statements."
+		"description": "Exits out of the current while block."
 	},
 	"accessindex": {
 		"scope": "islash",
@@ -382,5 +390,21 @@
 			"contains strOrArray toFind varToStore"
 		],
 		"description": "Checks if a string contains a character or if an array contains an element."
+	},
+	"replace": {
+		"scope": "islash",
+		"prefix": "replace",
+		"body": [
+			"replace target old new varToStore"
+		],
+		"description": "Replaces a pattern in a string by another pattern."
+	},
+	"exit": {
+		"scope": "islash",
+		"prefix": "exit",
+		"body": [
+			"exit 0"
+		],
+		"description": "Exits the program with a status code."
 	}
 }
