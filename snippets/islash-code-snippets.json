@@ -1,9 +1,9 @@
 {
-	"set": {
+	"var": {
 		"scope": "islash",
-		"prefix": "set",
+		"prefix": "var",
 		"body": [
-			"set x 0"
+			"var x 0"
 		],
 		"description": "Sets/declares variables."
 	},
@@ -143,6 +143,14 @@
 		],
 		"description": "If statement."
 	},
+	"elseif": {
+		"scope": "islash",
+		"prefix": "elseif",
+		"body": [
+			"elseif x\n\t"
+		],
+		"description": "Else if statement."
+	},
 	"else": {
 		"scope": "islash",
 		"prefix": "else",
@@ -183,11 +191,11 @@
 		],
 		"description": "Gets the length of a string or an array."
 	},
-	"getchar": {
+	"charat": {
 		"scope": "islash",
-		"prefix": "getchar",
+		"prefix": "charat",
 		"body": [
-			"getchar str index varToStore"
+			"charat str index varToStore"
 		],
 		"description": "Gets the nth char of a string."
 	},
@@ -237,13 +245,13 @@
 		"body": [
 			"break"
 		],
-		"description": "(Not Implemented Yet) Breaks while statements."
+		"description": "Exits out of the current while block."
 	},
-	"accessindex": {
+	"get": {
 		"scope": "islash",
-		"prefix": "accessindex",
+		"prefix": "get",
 		"body": [
-			"accessindex array index varToStore"
+			"get array index varToStore"
 		],
 		"description": "Accesses array indexes."
 	},
@@ -382,5 +390,21 @@
 			"contains strOrArray toFind varToStore"
 		],
 		"description": "Checks if a string contains a character or if an array contains an element."
+	},
+	"replace": {
+		"scope": "islash",
+		"prefix": "replace",
+		"body": [
+			"replace target old new varToStore"
+		],
+		"description": "Replaces a pattern in a string by another pattern."
+	},
+	"exit": {
+		"scope": "islash",
+		"prefix": "exit",
+		"body": [
+			"exit 0"
+		],
+		"description": "Exits the program with a status code."
 	}
 }

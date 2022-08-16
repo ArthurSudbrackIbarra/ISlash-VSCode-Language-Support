@@ -4,7 +4,7 @@
     "description": "Language Support for the ISlash language.",
     "version": "0.0.1",
     "author": "Arthur Sudbrack Ibarra",
-    "icon": "./icons/islash.png",
+    "icon": "icons/islash.png",
     "publisher": "ArthurSudbrackIbarra",
     "engines": {
         "vscode": "^1.70.0"
