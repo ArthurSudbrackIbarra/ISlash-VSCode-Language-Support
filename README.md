@@ -20,4 +20,8 @@ In case you want to run your programs, you'll need to download the [ISlash](http
 
 ### 0.0.1
 
-Initial release of ISlash Language Support extension.
+- Initial release of ISlash Language Support extension.
+
+### 0.0.2
+
+- Added support for new instructions that were introduced and updated the instructions that were renamed.
