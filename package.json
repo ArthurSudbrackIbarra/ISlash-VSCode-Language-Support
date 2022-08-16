@@ -2,7 +2,7 @@
     "name": "islash-language-support",
     "displayName": "ISlash Language Support",
     "description": "Language Support for the ISlash language.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "Arthur Sudbrack Ibarra",
     "icon": "icons/islash.png",
     "publisher": "ArthurSudbrackIbarra",
