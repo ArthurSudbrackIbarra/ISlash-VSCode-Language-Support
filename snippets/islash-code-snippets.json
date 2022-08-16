@@ -191,11 +191,11 @@
 		],
 		"description": "Gets the length of a string or an array."
 	},
-	"getchar": {
+	"charat": {
 		"scope": "islash",
-		"prefix": "getchar",
+		"prefix": "charat",
 		"body": [
-			"getchar str index varToStore"
+			"charat str index varToStore"
 		],
 		"description": "Gets the nth char of a string."
 	},
@@ -247,11 +247,11 @@
 		],
 		"description": "Exits out of the current while block."
 	},
-	"accessindex": {
+	"get": {
 		"scope": "islash",
-		"prefix": "accessindex",
+		"prefix": "get",
 		"body": [
-			"accessindex array index varToStore"
+			"get array index varToStore"
 		],
 		"description": "Accesses array indexes."
 	},
