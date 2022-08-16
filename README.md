@@ -4,7 +4,7 @@ Language support for the **ISlash** programming language. Includes syntax highli
 
 <br/>
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/69170322/184411192-f960f487-9860-452c-90c3-51f682beef06.png" alt="Example Program"/>
+    <img src="https://user-images.githubusercontent.com/69170322/184978727-46ebfbf9-abb9-458a-8c28-6300a8df4256.png" alt="Example Program"/>
 </p>
 <br/>
 <p align="center">

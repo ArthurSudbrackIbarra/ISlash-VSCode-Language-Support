@@ -1,9 +1,9 @@
 {
-	"set": {
+	"var": {
 		"scope": "islash",
-		"prefix": "set",
+		"prefix": "var",
 		"body": [
-			"set x 0"
+			"var x 0"
 		],
 		"description": "Sets/declares variables."
 	},
