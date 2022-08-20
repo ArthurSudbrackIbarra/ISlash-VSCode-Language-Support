@@ -203,7 +203,7 @@
 		"scope": "islash",
 		"prefix": "concat",
 		"body": [
-			"concat str1 str2"
+			"concat strToModify strToConcatenate"
 		],
 		"description": "Concatenates strings."
 	},
@@ -287,13 +287,13 @@
 		],
 		"description": "Creates an array from 0 to (range - 1)."
 	},
-	"preppend": {
+	"prepend": {
 		"scope": "islash",
-		"prefix": "preppend",
+		"prefix": "prepend",
 		"body": [
-			"preppend array element"
+			"prepend array element"
 		],
-		"description": "Preppends an element to an array."
+		"description": "Prepends an element to an array."
 	},
 	"removefirst": {
 		"scope": "islash",
